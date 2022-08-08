@@ -1,1 +1,14 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+# wedding
+Wedding Invitation as a website built with Ruby on rails, HTML, CSS.
+
+## Demo    
+
+[Run demo](https://wedding-tomoje.herokuapp.com/)
+
+## Feedback  
+
+Arigbede Timilehin Emmanuel - @Harrytimbog - harriemannie@gmail.com
+
+Project Link: https://github.com/Harrytimbog/wedding
+
+Demo Link: https://wedding-tomoje.herokuapp.com/
