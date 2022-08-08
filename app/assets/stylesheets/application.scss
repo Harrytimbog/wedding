@@ -10,3 +10,41 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap");
+
+// font-family: 'Playfair Display', serif;
+// font-family: 'Roboto', sans-serif;
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.75rem;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.25rem;
+  color: #824936;
+}
+
+h3 {
+  color: #824936;
+}
+
+body {
+  font-size: 1.3125;
+  font-family: "Roboto", sans-serif;
+  color: #503928;
+  background-color: white;
+}
+
+footer {
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  padding-block: 2em;
+}

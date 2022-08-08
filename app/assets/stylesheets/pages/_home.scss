@@ -1,1 +1,137 @@
 // Specific CSS for your home-page
+.intro,
+.invitation {
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 660px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    asset_url("wedding1.avif");
+}
+
+.row {
+  text-align: center;
+  width: 65%;
+}
+
+.intro__text,
+.intro__date {
+  font-size: 1.5rem;
+}
+
+.section__title {
+  text-align: center;
+}
+
+section {
+  padding-block: 5em;
+}
+
+.primary__button {
+  text-align: center;
+
+  button {
+    padding: 0.5em;
+    color: #fff;
+    background-color: black;
+  }
+
+  :hover {
+    opacity: 0.5;
+  }
+}
+
+.wedding-details {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.invitation {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    asset_url("wedding8.avif");
+}
+
+.invitation__text {
+  font-size: 1.6rem;
+}
+
+.venue-details {
+  display: flex;
+  justify-content: space-evenly;
+
+  h3,
+  p {
+    text-align: center;
+  }
+}
+
+.rsvp {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.rsvp__button {
+  text-align: center;
+
+  button {
+    padding: 0.5em;
+    color: white;
+    background-color: #824936;
+    min-width: 150px;
+  }
+
+  :hover {
+    opacity: 0.5;
+  }
+}
+
+.navbar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  color: #824936;
+  font-family: "Playfair Display", serif;
+  cursor: pointer;
+//   z-index: 9999;
+
+  :hover {
+    opacity: 0.5;
+  }
+
+  nav-link {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
